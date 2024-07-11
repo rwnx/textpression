@@ -9,6 +9,7 @@ typer = "*"
 [dev-packages]
 black = "*"
 twine = "*"
+setuptools = "*"
 
 [scripts]
 fmt = "black textpression"
