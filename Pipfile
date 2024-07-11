@@ -13,6 +13,7 @@ setuptools = "*"
 
 [scripts]
 fmt = "black textpression"
+build = "setup.py sdist bdist_wheel"
 
 [requires]
 python_version = "3.12"

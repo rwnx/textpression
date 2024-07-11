@@ -7,12 +7,11 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="textpression",
-    version="0.1",
     description="tools for making expressive unicode text messages",
     url="https://github.com/rwnx/textpression",
     python_requires=">3.9.0",
-    requires=[
-      "typer[all]>=0.9.0",
+    install_requires=[
+        "typer[all]>=0.9.0",
     ],
     entry_points={
       'console_scripts': [
