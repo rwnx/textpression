@@ -7,6 +7,11 @@ name = "pypi"
 typer = "*"
 
 [dev-packages]
+black = "*"
+twine = "*"
+
+[scripts]
+fmt = "black textpression"
 
 [requires]
 python_version = "3.12"
